@@ -1,1 +1,3 @@
 runtime: nodejs8
+env_variables:
+  MONGO_URL: mongodb://public:spacex@spacex-shard-00-00-gpg0u.mongodb.net:27017/spacex-api?ssl=true&authSource=admin&replicaSet=spacex-shard-0
